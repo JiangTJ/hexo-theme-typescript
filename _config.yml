@@ -1,7 +1,7 @@
 # Meta
 description: A minimal hexo theme.
-keywords: hexo,theme,typescript,otakism,otaku
-site_desc: otaku keeps alive
+keywords: 
+site_desc: 若白驹过隙，忽然而已
 
 # Navigation
 navigation:
@@ -17,7 +17,7 @@ navigation:
 
 # Search
 search: 
-  enable: true
+  enable: false
   service: google # google/hexo/algolia/azure/baidu
   # google 
   google_api_key:
@@ -36,7 +36,7 @@ search:
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-author_url: http://rakugaki.me
+author_url: https://jiangtj.gitlab.io/me
 
 # Less
 less:
@@ -45,28 +45,6 @@ less:
 # use url, not username
 social:
 - slug: email
-  url: #mailto:i@artifact.me
+  url: mailto:jiang.taojie@foxmail.com
 - slug: github
-  url: https://github.com/artchen
-- slug: twitter
-  url: https://twitter.com/otakism
-- slug: rss
-	url: /atom.xml
-- slug: google
-  url: https://plus.google.com/+ArtChenOtakism/posts
-- slug: facebook
-  url: # https://www.facebook.com/zanchoret
-- slug: linkedin
-  url: # https://www.linkedin.com/in/buzun
-- slug: sina-weibo
-  url: http://weibo.com/otakism/
-- slug: tumblr
-  url: # http://artchen.tumblr.com
-- slug: dribbble
-  url: # https://dribbble.com/artchen
-- slug: pinterest
-  url: # https://www.pinterest.com/otakism/
-- slug: instagram
-  url: # https://instagram.com/otakism/
-- slug: behance
-  url: # https://www.behance.net/artchen
+  url: https://github.com/jiangtj
