@@ -3,6 +3,11 @@ description: A minimal hexo theme.
 keywords: 
 site_desc: 若白驹过隙，忽然而已
 
+title:
+  # img or txt
+  # txt will read title in _config.yml 
+  type: txt
+
 # Navigation
 navigation:
 - name: Home

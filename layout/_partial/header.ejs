@@ -1,7 +1,11 @@
 <header id="header">
 	<div id="header-wrapper" class="clearfix">
 		<a id="logo" href="/">
-			<img src="/images/logo.png" />
+		  <% if (theme.title.type == 'img') { %>
+			  <img src="/images/logo.png" />
+			<% } else if (theme.title.type == 'txt') { %>
+			  <span id="site-title"><%- config.title %></span>
+			<% } %>
 			<span id="site-desc">
 			  <%- theme.site_desc %>
       </span>
