@@ -14,7 +14,7 @@
   	<nav>
   		<% theme.navigation.forEach(function(value, key) {
             if (value.url && value.slug && value.name) { %>
-        <a href="<%= value.url %>" class="nav-<%= value.slug %> nav">
+        <a href="<%= url_for(value.url) %>" class="nav-<%= value.slug %> nav">
           <%= value.name %>
         </a>
       <% } }); %>
