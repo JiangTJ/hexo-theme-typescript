@@ -5,6 +5,12 @@ var SearchService = "";
    * A super class of common logics for all search services
    * @param options : (object)
    */
+
+   // if search.enable is false, not init.
+   if ($(".search")) {
+     return;
+   }
+
   SearchService = function(options) {
     var self = this;
     
