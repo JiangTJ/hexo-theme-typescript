@@ -22,7 +22,7 @@ navigation:
 
 # Search
 search: 
-  enable: false
+  enable: true
   service: google # google/hexo/algolia/azure/baidu
   # google 
   google_api_key:

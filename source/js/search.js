@@ -7,7 +7,7 @@ var SearchService = "";
    */
 
    // if search.enable is false, not init.
-   if ($(".search")) {
+   if (!HexoConfig.search.enabled || HexoConfig.search.enabled === "false") {
      return;
    }
 
@@ -201,7 +201,7 @@ var SearchService = "";
       var html = "";
       if (self.config.brands[service] && self.config.brands[service].logo) {
         html += "<a href='" +self.config.brands[service].url+ "' class='" +service+ "'>";
-        html +=    '<img src="' +self.config.imagePath+self.config.brands[service].logo+ '" />';
+        html +=    '<img src="' + HexoConfig.root.substr(0,HexoConfig.root.length-1) + self.config.imagePath + self.config.brands[service].logo + '" />';
         html += "</a>";
         self.dom.modal_logo.html(html);
       }
